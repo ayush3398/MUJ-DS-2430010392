@@ -1,0 +1,65 @@
+{
+  "dataset": "TrashNet (dataset-resized), github.com/garythung/trashnet",
+  "total_images": 2387,
+  "num_classes": 5,
+  "classes": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic"
+  ],
+  "images_per_class": {
+    "cardboard": 403,
+    "glass": 501,
+    "metal": 409,
+    "paper": 594,
+    "plastic": 480
+  },
+  "class_percent": {
+    "cardboard": 16.88,
+    "glass": 20.99,
+    "metal": 17.13,
+    "paper": 24.88,
+    "plastic": 20.11
+  },
+  "imbalance_ratio_max_over_min": 1.47,
+  "original_image_sizes_WxH": {
+    "512x384": 2387
+  },
+  "model_input_size": "128x128x3",
+  "split_counts": {
+    "train": 1670,
+    "val": 358,
+    "test": 359
+  },
+  "split_per_class": {
+    "train": {
+      "cardboard": 282,
+      "glass": 350,
+      "metal": 286,
+      "paper": 416,
+      "plastic": 336
+    },
+    "val": {
+      "cardboard": 61,
+      "glass": 75,
+      "metal": 61,
+      "paper": 89,
+      "plastic": 72
+    },
+    "test": {
+      "cardboard": 60,
+      "glass": 76,
+      "metal": 62,
+      "paper": 89,
+      "plastic": 72
+    }
+  },
+  "raw_images_before_dedup": 2390,
+  "leakage_check": {
+    "files_in_more_than_one_split": 0,
+    "identical_image_groups_across_splits": 0,
+    "duplicate_groups_total": 0
+  }
+}

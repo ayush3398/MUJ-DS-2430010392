@@ -1,0 +1,4 @@
+experiment,augmentation,dropout,test_accuracy,precision_macro,recall_macro,f1_macro,best_epoch,best_val_accuracy
+baseline,False,0.0,0.7075,0.7185,0.7,0.7025,4,0.6983
+augmentation,True,0.0,0.7019,0.7108,0.6969,0.697,13,0.7458
+augmentation_dropout,True,0.5,0.7131,0.712,0.7075,0.7087,18,0.7654
